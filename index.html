@@ -1,87 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-</head>
-<body>
-    <section>
-        <p>Already have an Intuit account?</p>
-        <a href="#">I forgot my User ID or Password</a>
-        <button>Sign In</button>
-    </section>
 
-    <header>
-        <h1>Intuit</h1>
-        <nav>
-            <ul>
-                <li>
-                    <a href="">mint</a>
-                </li>
-                <li>
-                    <a href="">quickbooks</a>
-                </li>
-                <li>
-                    <a href="">turbotax</a>
-                </li>
-            </ul>
-        </nav>
-    </header>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/all.css"
+            integrity="sha384-i1LQnF23gykqWXg6jxC2ZbCbUMxyw5gLZY6UiUS98LYV5unm8GWmfkIS6jqJfb4E"
+            crossorigin="anonymous" />
+        <link rel="stylesheet" href="assets/css/style.css">
+        <title>Intuits Accounts</title>
+    </head>
 
-    <main>
-        <section>
-            <header>
-                <h2>Create an Intuit account</h2>
-                <p>One account for everything Intuit, including Mint.</p>
-                <a href="#">Learn more</a>
-            </header>
-
-            <form action="POST">
-                <label for="email">Email address</label>
-                <input id="email" type="email">
-
-                <label for="phone">Phone (recommended)</label>
-                <input id="phone" type="tel">
-
-                <label for="password">Password</label>
-                <input id="password" type="password">
-
-                <input type="submit">
-            </form>
-
-            <p>
-                <em>By clicking Create account, you agree to our
-                <a href="#">Terms</a> and have read and acknowledge 
-                our <a href="">Privacy Statement.</a>
-                </em>
-            </p>
-
-            <footer>
-                <p>
-                    Invisible reCAPTCHA by Google <a href="#">Privacy Policy</a>
-                    and <a href="#">Terms of Use</a>
-                </p>
-            </footer>
+    <body>
+        <!-- SIGN IN SECTION -->
+        <section class="login-box">
+            <div class="login-box__description">
+                <p>Already have an Intuit account?</p>
+                <a href="#">I forgot my User ID or Password</a>
+            </div>
+            <button><i class="fas fa-lock"></i>Sign In</button>
         </section>
 
-    </main>
+        <!-- HEADER -->
+        <header>
+            <h1 class="logo">Intuit <img src="assets/img/logo.png" alt="Company logo"></h1>
+            <nav>
+                <ul class="header__list">
+                    <li>
+                        <a href=""><img src="assets/img/mint-logo.png" alt="mint logo"> mint</a>
+                    </li>
+                    <li>
+                        <a href=""><img src="assets/img/quickboox-logo.png" alt="mint logo"> quickbooks</a>
+                    </li>
+                    <li>
+                        <a href=""><img src="assets/img/turbotax-logo.png" alt="mint logo"> turbotax</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
 
-    <footer>
-        <nav>
-            <ul>
-                <li><a href="#">Legal</a></li>
-                <li><a href="#">Privacy</a></li>
-                <li><a href="#">Security</a></li>
-            </ul>
-        </nav>
+        <!-- FORM MAIN SECTION -->
+        <main>
+            <!-- FORM CONTAINER -->
+            <section>
+                <!-- FORM HEADER -->
+                <header>
+                    <h2>Create an Intuit account</h2>
+                    <p>One account for everything Intuit, including Mint.</p>
+                    <a href="#">Learn more</a>
+                </header>
+                <!-- FORM -->
+                <form action="POST">
+                    <label for="email">Email address</label>
+                    <input id="email" type="email">
 
-        <p>
-            &copy; 
-            2019 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc.
-            Terms and conditions, features, support, pricing, and service options subject to change without notice.
-        </p>
-    </footer>
-</body>
+                    <label for="phone">Phone (recommended)</label>
+                    <input id="phone" type="tel">
+
+                    <label for="password">Password</label>
+                    <input id="password" type="password">
+
+                    <input type="submit">
+                </form>
+
+                <p>
+                    <em>By clicking Create account, you agree to our
+                        <a href="#">Terms</a> and have read and acknowledge
+                        our <a href="">Privacy Statement.</a>
+                    </em>
+                </p>
+
+                <!-- FORM FOOTER -->
+                <footer>
+                    <p>
+                        Invisible reCAPTCHA by Google <a href="#">Privacy Policy</a>
+                        and <a href="#">Terms of Use</a>
+                    </p>
+                </footer>
+            </section>
+
+        </main>
+        <!-- MAIN FOOTER -->
+        <footer>
+            <nav>
+                <ul>
+                    <li><a href="#">Legal</a></li>
+                    <li><a href="#">Privacy</a></li>
+                    <li><a href="#">Security</a></li>
+                </ul>
+            </nav>
+
+            <p>
+                &copy;
+                2019 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are
+                registered trademarks of Intuit Inc.
+                Terms and conditions, features, support, pricing, and service options subject to change without notice.
+            </p>
+        </footer>
+    </body>
+
 </html>
