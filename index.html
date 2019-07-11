@@ -28,13 +28,15 @@
             <nav>
                 <ul class="header__list">
                     <li>
-                        <a href=""><img src="assets/img/mint-logo.png" alt="mint logo"> mint</a>
+                        <a href="#"><img class="brand-logo" src="assets/img/mint-logo.png" alt="mint logo"> mint</a>
                     </li>
                     <li>
-                        <a href=""><img src="assets/img/quickboox-logo.png" alt="mint logo"> quickbooks</a>
+                        <a href="#"><img class="brand-logo" src="assets/img/quickboox-logo.png" alt="mint logo">
+                            quickbooks</a>
                     </li>
                     <li>
-                        <a href=""><img src="assets/img/turbotax-logo.png" alt="mint logo"> turbotax</a>
+                        <a href="#"><img class="brand-logo" src="assets/img/turbotax-logo.png" alt="mint logo">
+                            turbotax</a>
                     </li>
                 </ul>
             </nav>
@@ -43,7 +45,7 @@
         <!-- FORM MAIN SECTION -->
         <main>
             <!-- FORM CONTAINER -->
-            <section class="container"> 
+            <section class="container">
                 <!-- FORM HEADER -->
                 <header>
                     <h2>Create an Intuit account</h2>
@@ -55,18 +57,22 @@
                     <fieldset>
                         <label for="email">Email address</label>
                         <input id="email" type="email">
-                    </fieldset>   
-                    
+                    </fieldset>
+
                     <fieldset>
                         <label for="phone">Phone (recommended)</label>
                         <input id="phone" type="tel">
+                        <small>Standard call, messaging or data rates may apply.</small>
                     </fieldset>
-                  
+
                     <fieldset>
                         <label for="password">Password</label>
-                        <input id="password" type="password">
+                        <div class="password-icon">
+                            <input id="password" type="password">
+                            <i class="fas fa-lock-open"></i>
+                        </div>
+                        </div>
                     </fieldset>
-                    
 
                     <button class="btn-blue" type="submit"><i class="fas fa-lock"></i>Create Account</button>
 
