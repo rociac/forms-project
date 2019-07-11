@@ -19,7 +19,7 @@
                 <p>Already have an Intuit account?</p>
                 <a href="#">I forgot my User ID or Password</a>
             </div>
-            <button><i class="fas fa-lock"></i>Sign In</button>
+            <button class="btn-blue"><i class="fas fa-lock"></i>Sign In</button>
         </section>
 
         <!-- HEADER -->
@@ -43,7 +43,7 @@
         <!-- FORM MAIN SECTION -->
         <main>
             <!-- FORM CONTAINER -->
-            <section>
+            <section class="container"> 
                 <!-- FORM HEADER -->
                 <header>
                     <h2>Create an Intuit account</h2>
@@ -52,19 +52,27 @@
                 </header>
                 <!-- FORM -->
                 <form action="POST">
-                    <label for="email">Email address</label>
-                    <input id="email" type="email">
+                    <fieldset>
+                        <label for="email">Email address</label>
+                        <input id="email" type="email">
+                    </fieldset>   
+                    
+                    <fieldset>
+                        <label for="phone">Phone (recommended)</label>
+                        <input id="phone" type="tel">
+                    </fieldset>
+                  
+                    <fieldset>
+                        <label for="password">Password</label>
+                        <input id="password" type="password">
+                    </fieldset>
+                    
 
-                    <label for="phone">Phone (recommended)</label>
-                    <input id="phone" type="tel">
+                    <button class="btn-blue" type="submit"><i class="fas fa-lock"></i>Create Account</button>
 
-                    <label for="password">Password</label>
-                    <input id="password" type="password">
-
-                    <input type="submit">
                 </form>
 
-                <p>
+                <p class="privacy-statement">
                     <em>By clicking Create account, you agree to our
                         <a href="#">Terms</a> and have read and acknowledge
                         our <a href="">Privacy Statement.</a>
@@ -72,7 +80,7 @@
                 </p>
 
                 <!-- FORM FOOTER -->
-                <footer>
+                <footer class="form-footer">
                     <p>
                         Invisible reCAPTCHA by Google <a href="#">Privacy Policy</a>
                         and <a href="#">Terms of Use</a>

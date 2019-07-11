@@ -16,6 +16,19 @@ body {
   background-color: #ECEEF1;
 }
 
+.btn-blue{
+  background-color: #0077C5;
+  font-weight: 400;
+  color:white;
+  padding: 1rem 2rem;
+  border-radius: 5px;
+}
+
+a{
+  text-decoration: none;
+  color: #0077C5;
+}
+
 /* login section */
 .login-box {
   display: flex;
@@ -40,13 +53,6 @@ body {
   font-weight: 400;
 }
 
-.login-box button {
-  background-color: #0077C5;
-  font-weight: 400;
-  color:white;
-  padding: 1rem 2rem;
-  border-radius: 5px;
-}
 
 .login-box i {
   margin-right: 1rem;
@@ -90,4 +96,53 @@ header {
 
 .header__list a > * {
   align-self: center;
+}
+
+
+/*--Form--*/
+
+main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 1.7rem;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  background-color: white;
+  width: 38rem;
+  padding: 3rem;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+}
+
+fieldset{
+  display: flex;
+  flex-direction: column;
+  border: none;
+  margin-top: 2rem;
+}
+
+form button{
+  margin: 2rem 0;
+}
+
+.privacy-statement{
+  text-align: center;
+  line-height: 1.6;
+  font-size: 1.3rem;
+  color: #757575;
+}
+
+.form-footer{
+  padding: 1.6rem;
+  background-color: #ECEEF1;
+  margin-top:  2rem;
 }
