@@ -207,11 +207,48 @@ form button i {
   justify-content: center;
   margin-top: 3rem;
 }
-.form-footer p,
+.form-footer p{
+  font-size: 1rem;
+  color: #8d9096;
+}
+
 .form-footer a {
   font-size: 1rem;
 }
 
 .form-footer a {
   font-weight: 500;
+}
+
+.main-footer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #505050;
+  text-align: center;
+  justify-content: center;
+  padding: 2rem 0;
+}
+
+.main-footer p{
+  margin-top: 0;
+  width: 55%;
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+.main-footer a{
+  color: #505050;
+  font-size: 1.2rem;
+}
+
+.main-footer nav ul{
+  display: flex;
+  list-style: none;
+
+}
+
+.main-footer li{
+  margin: 0.5rem;
+  margin-bottom: 0;
 }
