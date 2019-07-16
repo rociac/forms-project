@@ -5,6 +5,11 @@
   box-sizing: inherit;
 }
 
+button {
+  border-style: none;
+  outline-style: none
+}
+
 html {
   font-family: AvenirNext,Avenir,"Helvetica Neue",Helvetica,Arial,sans-serif;
   font-size: 62.5%;
